@@ -33,6 +33,13 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>AluraQuiz - Imersão React v2</title>
+        <meta name="title" content="AluraQuiz - Imersão React v2"/>
+        <meta name="description" content="Um projeto criado com amor durante a Imersão React v2. Base para futuro projeto."/>
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://aluraquiz-base.holzlsauer.vercel.app/"/>
+        <meta property="og:title" content="AluraQuiz - Imersão React v2"/>
+        <meta property="og:description" content="Um projeto criado com amor durante a Imersão React v2. Base para futuro projeto."/>
         <meta property="og:image" content={db.bg} />
       </Head>
       <ThemeProvider theme={theme}>
