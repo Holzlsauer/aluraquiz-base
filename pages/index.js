@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
+import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
@@ -28,18 +29,19 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+        <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Lipsum</h1>
+            <h1>AluraQuiz Hollywood</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>O quanto você sabe sobre filmes de Hollywood?</p>
           </Widget.Content>
         </Widget>
 
         <Widget>
           <Widget.Header>
-            <h1>Lipsum</h1>
+            <h1>Quizes da galera</h1>
           </Widget.Header>
           <Widget.Content>
             <p>Lorem ipsum dolor sit amet</p>
