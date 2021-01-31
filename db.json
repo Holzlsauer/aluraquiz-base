@@ -1,44 +1,94 @@
 {
-    "bg": "https://i.pinimg.com/564x/26/02/e3/2602e3e3168b861ab9995dfa30a500ab.jpg",
-    "bg-old": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
-        "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#cb5e3c",
-        "secondary": "#ff9100",
-        "mainBg": "#424242",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://image.freepik.com/free-vector/software-development-programming-language-coding_284092-33.jpg",
+  "title": "DevQuiz #AluraQuiz",
+  "description": "Um quiz sobre frontend e outras coisinhas",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/3ohhwfsweRaKsZo17W/giphy.gif",
+      "title": "O que é design responsivo?",
+      "description": "Melhor respondido no celular.",
+      "answer": 0,
+      "alternatives": [
+        "Forma de estruturar o projeto para ele se adapte a qualquer tamanho de tela.",
+        "Layout que se constrói de acordo com o feedback do usuário.",
+        "Uma versão mobile do site."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Qual parametro de position do CSS permite o elemento ficar travado em relação ao viewport?",
+      "description": "CSS is awesome",
+      "answer": 3,
+      "alternatives": [
+        "position: absolute;",
+        "position: relative;",
+        "position: static;",
+        "position: fixed;",
+        "position: sticky;"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif",
+      "title": "O que nunca se deve esquecer de verificar quando rodar algum comando de update ou delete em banco de dados?",
+      "description": "Todos já passaram por isso.",
+      "answer": 0,
+      "alternatives": [
+        "Se o script contém a clausula where.",
+        "Se a conexão com o banco de dados está em pé.",
+        "Se é sexta-feira."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/axnFGXT6MzvgY/giphy.gif",
+      "title": "O que significa JWT?",
+      "answer": 1,
+      "alternatives": [
+        "Javascript Wide Token",
+        "JSON Web Token",
+        "Javascript Web Tensor",
+        "JSON Wide Tax"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif",
+      "title": "Quais são o métodos HTTP mais utilizados?",
+      "answer": 4,
+      "alternatives": [
+        "GET, PUSH, DELETE e POST",
+        "GET, PUT, DELETE e BODY",
+        "GET, POST, PUT e REMOVE",
+        "GET, FETCH, POST e DELETE",
+        "GET, POST, DELETE e PUT"
+      ]
+    },
+    {
+      "image": "https://pbs.twimg.com/media/EZnN-TnWoAU2pnk.jpg",
+      "title": "O que é uma boa prática com o git?",
+      "answer": 2,
+      "alternatives": [
+        "Realizar commits direto na main, mantendo o código sempre atualizado.",
+        "Rescrever o history com os novos commits.",
+        "Realizar pequenos commits, contendo apenas uma alteração.",
+        "Deletar o .gitignore."
+      ]
     }
+  ],
+  "external": [
+    "https://quiz-padrao-projetos.thassya.vercel.app/",
+    "https://aleatorio-quiz.viniciud.vercel.app/",
+    "https://aluraquiz-tech.pablooks.vercel.app/",
+    "https://imersao-alura-v2.jvitormf.vercel.app/",
+    "https://css-tricquiz.henrfarias.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#af52bf",
+      "secondary": "#6e43a3",
+      "mainBg": "#330e62",
+      "contrastText": "#FFFFFF",
+      "wrong": "#f50057",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
+}
